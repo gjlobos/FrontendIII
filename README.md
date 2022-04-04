@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+**Primer evaluación entregable de Front-end III para C.T.D.**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ - Pueden ver el deploy de la aplicación en:
+   https://nostalgic-wilson-b2a04e.netlify.app/ 
+ - Para descargar React    developer tools:   
+   https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi
+   
+ - Para utilizarlo: Ctrl + Shift + i  => Components:
+![Ubicación de Components](https://github.com/Ivanszs/ctd-frontend3-primer-evaluacion/blob/main/reactComponents.PNG?raw=true)
 
-## Available Scripts
+¡Hola! Llegó el momento de poner a prueba los conocimientos adquiridos. Esta es la oportunidad para validar tu aprendizaje hasta el momento. Se trata de una evaluación entregable, donde tendrás la posibilidad de resolver el trabajo por cuenta propia y entregarlo antes de la fecha límite.
 
-In the project directory, you can run:
+## Recordá: La fecha límite de entrega es el viernes 01 de Abril, 23:59 hs Argentina, 21:59 hs Colombia.
 
-### `npm start`
+**¿Cuáles son los temas que no me pueden faltar?**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+-   Utilizar CRA para crear una aplicación.
+    
+-   Estructura de archivos y carpetas en React.
+    
+-   Componentes de clase
+    
+-   Props.
+    
+-   Estados
+    
+-   Ciclo de vida.
+    
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+¿A qué nos referimos con que no te pueden faltar? Bueno la aplicación que queremos que hagas puede realizarse de incontables formas, pero vamos a hacerla demostrando todo lo que fuimos aprendiendo hasta ahora.
 
-### `npm test`
+**Consigna**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Entonces, se requiere que en algún punto del código se utilicen:
 
-### `npm run build`
+-   Props.
+    
+-   Estados mediante this.state y setState.
+    
+-   Algún método del ciclo de vida.
+    
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+En caso que necesites crear un componente que tenga estados, necesariamente deberás utilizar componentes de clase. En caso de tener alguno que no tenga la necesidad de utilizar estados, podés utilizar componentes funcionales.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**La app**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+-   La aplicación que vas a crear se trata de un “Elige tu propia aventura”.
+    
+-   Te presentaremos un texto que describa una situación y dos opciones (A o B) para reaccionar ante la situación. Cada una de estas opciones te llevará por el recorrido de la historia de una forma u otra, dependiendo de tus elecciones.
+    
+-   Dentro de la carpeta "components", encontrarás un archivo llamado "data.json" en el cual verás un array de objetos, que es el que se utiliza para el texto de la historia así como también para las opciones.
+    
+-   Como podrás ver, se trata de una historia prácticamente lineal. Si elegís una opción, esta te dará un texto único. Sin embargo, tendrás las mismas consecuencias de si hubieras elegido la otra opción. Esto es así para evitar tener un JSON extremadamente confuso, con el cual tengas que perder mucho tiempo descifrando.
+    
 
-### `npm run eject`
+**Otras funcionalidades**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+-   Tendrás la posibilidad de realizar funcionalidades extra que te darán la posibilidad de llegar a la nota máxima. Las mismas son las siguientes:
+    
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+-   A medida que hagas elecciones "A" o "B", estas se irán registrando de la siguiente manera:
+    
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+-   Se muestra en pantalla la última elección que realizó el usuario (por ejemplo, "Selección previa: A").
+    
+-   Se muestran todas las selecciones anteriores (por ejemplo, "Anteriores: A B A").
+    
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+-   Tendrás a disposición un archivo llamado  index.CSS dentro de la carpeta src para dejar la app algo más estética. Recordá asignar className a los distintos elementos que ahí se nombran. Igualmente el CSS no es algo que se evaluará, por lo tanto es completamente opcional.
+    
 
-## Learn More
+**Entrega**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+La app se tiene que entregar en un repositorio de GitHub, mediante un formulario que se te entregará posteriormente.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+-   Tendrás tiempo hasta el **viernes 01, 23:59 hs Argentina, 21:59 hs Colombia.**
+    
+- **Cualquier modificación en el repositorio de GitHub, posterior al tiempo límite establecido, no será evaluada.**
